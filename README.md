@@ -39,3 +39,28 @@ dvirgim@gmail.com
 xPrime = 842 # 792
 yPrime = 595 # 612
 (הן מופיעות פעמיים בקובץ המשני, בסדר הפוך. צריך לשנות את היחס - נניח להכפיל את x בקצת כדי שיגדל הגובה, או משהו כזה. תלוי מקרה).
+
+
+I have put this neat and useful program here, it's use should be rather intuitive.
+
+Explanation: 
+ 
+Downloading:
+
+Downloading and running the .exe file usually works. Sometimes windows may think its a virus, in that case you just tell windows to trust it.
+
+How a book is built:
+A book is build is by binding multiple booklets, each one glued or sewn to another.
+The program has options for sewing and gluing (lazy).
+
+Using the program and printing: 
+The input to the program is a .pdf file.
+If you choose to go with gluing the program will add an extra blank page an the beginning and the end of every booklet.
+Example: if you have a book of 150 pages, and choose 32 pages per booklet, you will end up with 5 booklets each having a blank page at the beginning and the end (in ordar to glue them to each other).
+The program outputs a file called “reay to print”. Make sure it is formatted properly and then print double sided – if the file has tall and thin pages, print with “flip on long side”, if the pages are short and wide print with “flip on short side”. Along with the print file the program will also output a trash folder that can be deleted at the end of the process.
+
+Putting the book together with glue (sewing is a similar idea):
+after printing cut the pages precisely. If you have defined 4 pages on every printed paper you will only need to cut paper in 2. And so on.  Collecte the pages in order and fold them. If you have 32 pages in a booklet then you should have 8 papers to fold at a time. Staple the booklet so that it doesn't fall apart. Glue all the booklets together (beware of the order).
+Make a cover out of cardboard of sorts.
+And there yo have it.
+
